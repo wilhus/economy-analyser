@@ -72,7 +72,7 @@
         <div class="flex">
             <div class="flex-auto w-full min-w-0 static max-h-full overflow-visible">
                 <div class="relative pt-24 pb-32 bg-secondary-darkest">
-                    <img class="w-full absolute -bottom-1px left-0 object-fill pointer-events-none z-0" loading="lazy"
+                    <img class="w-full absolute bottom-0 left-0 object-fill pointer-events-none z-0" loading="lazy"
                         alt="A chart background" src="../assets/images/bg-2.svg" />
                 </div>
             </div>
