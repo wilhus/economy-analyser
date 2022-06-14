@@ -45,16 +45,19 @@ export default {
         ['nuxt-supabase', {
             supabaseUrl: process.env.SUPABASE_URL as string,
             supabaseKey: process.env.SUPABASE_KEY as string
-        }]
+        }],
+        '@nuxtjs/vuetify',
     ],
 
-
+    tailwindcss: {
+        prefix: 'tw-'
+    },
 
     bootstrapVue: {
-        // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
         icons: true,
-        bootstrapCSS: false, // Or `css: false`
-        bootstrapVueCSS: false // Or `bvCSS: false`
+        bootstrapCSS: false,
+        bootstrapVueCSS: false,
+        components: []
     },
 
     // Modules: https://go.nuxtjs.dev/config-modules
